@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Aula 2</title>
+</head>
+<body>
+    <h2>Estudo de Formulários HTML</h2>
+    
+   <form action="#">
+
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name"> <br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha"> <br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"> <br><br>
+
+    <label for="data_nascimento">Data de Nascimento:</label>
+    <input type="date" id="data_nascimento" name="data_nascimento"><br><br>
+
+    <label for="sexo:">Sexo:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Masculino</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="male">Feminino</label>
+    <input type="radio" id="nao especificado" name="gender" value="nao especificado"> 
+    <label for="nao especificado">Não informar</label><br><br>
+
+    <label for="pais">País/Região:</label>
+    <select name="pais" id="pais">
+    <option value="brasil">Brasil</option>
+    <option value="portugal">Portugal</option>
+    <option value="argentina">Argentina</option>
+    </select><br><br>
+
+    <label for="informacoes">Deseja receber notificações dos seguintes assuntos abaixo:</label><br><br>
+    <input type="checkbox" name="informacoes" id="tecnologia" value="tecnologia">
+    <label for="tecnologia">Tecnologia</label>
+
+    <input type="checkbox" name="informacoes" id="economia" value="economia">
+    <label for="economia">Economia</label>
+
+    <input type="checkbox" name="informacoes" id="jogos" value="jogos">
+    <label for="jogos">Jogos</label>
+
+    <input type="checkbox" name="informacoes" id="viagens" value="viajens">
+    <label for="viagens">Viagens</label>
+
+    <input type="checkbox" name="informacoes" id="emprego" value="emprego">
+    <label for="emprego">Emprego</label><br><br>
+
+    <input type="checkbox" name="autorizo" id="autorizar">
+    <label for="autorizo">Desejo receber notificações pelo email</label><br><br>
+   
+    <label for="Mensagem">Mensagem:</label> <br>
+    <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea><br>
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar">
+
+   </form>
+</body>
+</html>
+
